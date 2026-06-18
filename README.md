@@ -1,7 +1,7 @@
 # Self-supervised Conformal Prediction for Imaging
 
 [![Tests](https://github.com/Tabermaths/self-supervised-conformal-prediction/actions/workflows/tests.yml/badge.svg)](https://github.com/Tabermaths/self-supervised-conformal-prediction/actions/workflows/tests.yml)
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](pyproject.toml)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Public research code for **self-supervised conformal prediction** in imaging inverse problems. The repository implements conformal calibration without ground-truth calibration images by replacing the supervised calibration score with self-supervised risk estimates:

@@ -7,7 +7,7 @@ name = "self-supervised-conformal-prediction"
 version = "1.0.0"
 description = "SURE/PURE self-supervised conformal prediction for imaging inverse problems."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [
   {name = "Bernardin Tamo Amougou"},
   {name = "Marcelo Pereyra"},
