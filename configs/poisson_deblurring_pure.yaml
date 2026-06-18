@@ -1,0 +1,25 @@
+experiment:
+  name: poisson_deblurring_div2k
+  root: outputs/poisson_deblurring_div2k
+  gamma: 60.0
+  blur_sigma: 2.0
+  image_size: 256
+  grayscale: true
+  batch_size: 1
+  generate_dataset: false
+  device: null
+checkpoint: null
+training:
+  epochs: 400
+  lr: 0.0005
+  tau: 0.0001
+conformal:
+  confidence: 0.95
+  batch_size: 1
+  num_trace_samples: 1
+  probe_distribution: gaussian
+num_workers: 0
+data:
+  num_train: 900
+  num_test: 200
+  seed: 0

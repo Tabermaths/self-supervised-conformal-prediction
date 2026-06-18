@@ -1,0 +1,5 @@
+name: sure_pure_conformal
+channels:
+  - defaults
+dependencies:
+  - python=3.9

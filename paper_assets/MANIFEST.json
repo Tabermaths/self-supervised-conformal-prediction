@@ -1,0 +1,97 @@
+{
+  "description": "Exact active figure assets copied from the Overleaf/LaTeX source archives. Commented-out includegraphics entries are intentionally not copied here.",
+  "notes": [
+    "The previous Springer/SSVM page screenshot SSCP1.png was removed because it is not a reproducibility asset.",
+    "Numerical arrays and regenerated reference plots remain in results/reference/."
+  ],
+  "papers": [
+    {
+      "paper_key": "sure_ssvm2025",
+      "paper_title": "Self-supervised Conformal Prediction for Uncertainty Quantification in Imaging Problems",
+      "source_archive_name": "SURE_based_Conformal_Prediction_for_Uncertainty_Quantification_in_Image_Restoration_Problems__SSVM2025_.zip",
+      "source_tex": "main.tex",
+      "figures": [
+        {
+          "paper_figure": "Figure 1",
+          "role": "reconstruction examples",
+          "latex_path": "Graphs/reconstructions.png",
+          "latex_line_in_source_main_tex": 396,
+          "repository_path": "paper_assets/sure_ssvm2025/reconstructions.png",
+          "size_bytes": 819976,
+          "sha256": "9c3c8f40cee4d5fa015a0121cb3cef0cb9a9d298dd84c8ea6e1ac29b83c05ad6"
+        },
+        {
+          "paper_figure": "Figure 2",
+          "role": "Gaussian denoising coverage",
+          "latex_path": "Graphs/coveragedenoisingwithoracle.png",
+          "latex_line_in_source_main_tex": 423,
+          "repository_path": "paper_assets/sure_ssvm2025/coveragedenoisingwithoracle.png",
+          "size_bytes": 35749,
+          "sha256": "7428fde94d335a713aec2097c669b79b391fc9601847dc25a4aeec283bb36f89"
+        },
+        {
+          "paper_figure": "Figure 3",
+          "role": "Gaussian deblurring coverage",
+          "latex_path": "Graphs/coveragedeblurringwithoracle.png",
+          "latex_line_in_source_main_tex": 437,
+          "repository_path": "paper_assets/sure_ssvm2025/coveragedeblurringwithoracle.png",
+          "size_bytes": 34478,
+          "sha256": "3ad23c0968f215f263e3a38addf904ef4fb03487afbee031ee90998e1d210eb3"
+        },
+        {
+          "paper_figure": "Figure 4 left",
+          "role": "Gaussian denoising score histogram",
+          "latex_path": "Graphs/histogramdenoising.png",
+          "latex_line_in_source_main_tex": 547,
+          "repository_path": "paper_assets/sure_ssvm2025/histogramdenoising.png",
+          "size_bytes": 47247,
+          "sha256": "38913e3be7a66ea75b273e4d512d492139417ef40a706a69105f53cb3c15be56"
+        },
+        {
+          "paper_figure": "Figure 4 right",
+          "role": "Gaussian deblurring score histogram",
+          "latex_path": "Graphs/histogramdeblurring.png",
+          "latex_line_in_source_main_tex": 553,
+          "repository_path": "paper_assets/sure_ssvm2025/histogramdeblurring.png",
+          "size_bytes": 42172,
+          "sha256": "4f4e9d6cedf0495db7f1cf0f4d840e8a27c00c5bf70e6b9589427372112aab82"
+        }
+      ]
+    },
+    {
+      "paper_key": "poisson_ssp2025",
+      "paper_title": "Self-supervised conformal prediction for uncertainty quantification in Poisson imaging problems",
+      "source_archive_name": "PURE_based_Conformal_Prediction_for_Uncertainty_Quantification_in_Low_Photon_Image_Restoration.zip",
+      "source_tex": "main.tex",
+      "figures": [
+        {
+          "paper_figure": "Figure 1",
+          "role": "Poisson reconstruction examples",
+          "latex_path": "Graphs/poisson_reconstruction_reviewed.png",
+          "latex_line_in_source_main_tex": 553,
+          "repository_path": "paper_assets/poisson_ssp2025/poisson_reconstruction_reviewed.png",
+          "size_bytes": 651605,
+          "sha256": "a1d440583c80c98a5e019358e7b8fe6d3354de0a1a2d5beb977584d8f92aff2c"
+        },
+        {
+          "paper_figure": "Figure 2",
+          "role": "Poisson denoising coverage",
+          "latex_path": "Graphs/coveragepoissondenoisingwithoracle.png",
+          "latex_line_in_source_main_tex": 591,
+          "repository_path": "paper_assets/poisson_ssp2025/coveragepoissondenoisingwithoracle.png",
+          "size_bytes": 38911,
+          "sha256": "8d67e7facf1b7031afb809d23d8c16632aaa20ae6d5d457853fd853d63f1fdab"
+        },
+        {
+          "paper_figure": "Figure 3",
+          "role": "Poisson deblurring coverage",
+          "latex_path": "Graphs/coveragepoissondeblurringwithoracle.png",
+          "latex_line_in_source_main_tex": 612,
+          "repository_path": "paper_assets/poisson_ssp2025/coveragepoissondeblurringwithoracle.png",
+          "size_bytes": 36690,
+          "sha256": "f24e6e2851f552db0fcfdf72fb90b8125127601854da5273e0356dab884f030f"
+        }
+      ]
+    }
+  ]
+}

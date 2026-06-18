@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Experiments
+outputs/
+checkpoints/
+wandb/
+*.pth
+*.pth.tar
+*.pt
+*.h5
+*.hdf5
+
+# Datasets and caches
+data/
+datasets/
+.cache/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

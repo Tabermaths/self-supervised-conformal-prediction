@@ -1,0 +1,9 @@
+# Minimal dependencies for core SURE/PURE/conformal utilities and tests.
+torch>=1.13
+torchvision>=0.14
+numpy>=1.23
+matplotlib>=3.6
+tqdm>=4.60
+PyYAML>=6.0
+pytest>=8.0
+ruff>=0.8

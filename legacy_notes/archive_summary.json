@@ -1,0 +1,88 @@
+[
+  {
+    "archive": "ConformalPredictionSure.zip",
+    "num_files": 338,
+    "uncompressed_bytes": 632846548,
+    "num_python_files": 20,
+    "large_files_over_10MB": [
+      [
+        "ConformalPredictionSure/datasets/Tomography/rei/ckp.pth.tar",
+        414095633
+      ],
+      [
+        "ConformalPredictionSure/q_alphas-131922.output",
+        11745651
+      ],
+      [
+        "ConformalPredictionSure/training-128603.error",
+        15487664
+      ],
+      [
+        "ConformalPredictionSure/training-128623.error",
+        37302416
+      ],
+      [
+        "ConformalPredictionSure/training-129154.error",
+        15621996
+      ],
+      [
+        "ConformalPredictionSure/wandb/latest-run/run-blfz5nop.wandb",
+        22743740
+      ],
+      [
+        "ConformalPredictionSure/wandb/run-20241028_204023-8g27lj3e/run-8g27lj3e.wandb",
+        22614068
+      ],
+      [
+        "ConformalPredictionSure/wandb/run-20241028_220307-2678xy9g/run-2678xy9g.wandb",
+        60361852
+      ],
+      [
+        "ConformalPredictionSure/wandb/run-20241029_163503-blfz5nop/run-blfz5nop.wandb",
+        22743740
+      ]
+    ]
+  },
+  {
+    "archive": "ConformalPredictionUnsure.zip",
+    "num_files": 1458,
+    "uncompressed_bytes": 390533918,
+    "num_python_files": 81,
+    "large_files_over_10MB": [
+      [
+        "ConformalPredictionUnsure/poisson-deblurring/.git/objects/pack/pack-47f151c7c70dd73bde6b67806fde0e5fff2c9266.pack",
+        18903811
+      ],
+      [
+        "ConformalPredictionUnsure/poisson-deblurring/data/real_data/lux5_clean/6.png",
+        16512433
+      ],
+      [
+        "ConformalPredictionUnsure/poisson-deblurring/model_zoo/p4ip_latest.pth",
+        68390975
+      ],
+      [
+        "ConformalPredictionUnsure/Scale-Equivariant-Imaging/.git/objects/pack/pack-9b761a905bc0293254e9e3ec713145ba658e2dfe.pack",
+        12405333
+      ],
+      [
+        "ConformalPredictionUnsure/unsure/model_zoo/p4ip_latest.pth",
+        68390975
+      ]
+    ]
+  },
+  {
+    "archive": "SURE_based_Conformal_Prediction_for_Uncertainty_Quantification_in_Image_Restoration_Problems__SSVM2025_.zip",
+    "num_files": 73,
+    "uncompressed_bytes": 10342983,
+    "num_python_files": 0,
+    "large_files_over_10MB": []
+  },
+  {
+    "archive": "PURE_based_Conformal_Prediction_for_Uncertainty_Quantification_in_Low_Photon_Image_Restoration.zip",
+    "num_files": 82,
+    "uncompressed_bytes": 11923728,
+    "num_python_files": 0,
+    "large_files_over_10MB": []
+  }
+]

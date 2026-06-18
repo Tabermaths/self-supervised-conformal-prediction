@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "self-supervised-conformal-prediction"
+version = "0.1.0"
+description = "SURE/PURE self-supervised conformal prediction for imaging inverse problems."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  {name = "Bernardin Tamo Amougou"},
+  {name = "Marcelo Pereyra"},
+  {name = "Jasper Marijn Everink"},
+  {name = "Barbara Pascal"}
+]
+dependencies = [
+  "torch>=1.13",
+  "torchvision>=0.14",
+  "numpy>=1.23",
+  "matplotlib>=3.6",
+  "tqdm>=4.60",
+  "PyYAML>=6.0",
+]
+
+[project.scripts]
+sscp-check-install = "sscp.cli:check_install"
+
+[project.optional-dependencies]
+deepinv = [
+  "deepinv>=0.2.2",
+  "h5py>=3.8",
+  "polyblur>=0.1.6",
+  "wandb>=0.15",
+]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "scripts", "tests"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"

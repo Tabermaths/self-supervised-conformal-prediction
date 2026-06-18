@@ -1,0 +1,22 @@
+experiment:
+  name: gaussian_deblurring_div2k
+  root: outputs/gaussian_deblurring_div2k
+  sigma_noise: 0.01
+  blur_sigma:
+  - 2.0
+  - 0.3
+  blur_angle: 30.0
+  image_size: 256
+  batch_size: 1
+  generate_dataset: false
+  device: null
+conformal:
+  confidence: 0.95
+  batch_size: 1
+  num_trace_samples: 1
+  probe_distribution: rademacher
+num_workers: 0
+data:
+  num_train: 900
+  num_test: 200
+  seed: 0

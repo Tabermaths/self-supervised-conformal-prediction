@@ -1,0 +1,196 @@
+[
+  {
+    "path": "gaussian_sure/deblurring/coverage_deblurring_all.png",
+    "bytes": 40716,
+    "sha256": "097c63fa408c2ab70c58ae16567a5593812d318bd109f50a7b0c21d123d131c6"
+  },
+  {
+    "path": "gaussian_sure/deblurring/empirical_coverage_MildlyBlurred_DIV2K_unsupervised.npy",
+    "bytes": 920,
+    "sha256": "4c54c08f0e3a73b2d80ea95469bf7c96109a6d99c6ad1e599063d047cd9d7d93",
+    "shape": [
+      99
+    ],
+    "dtype": "float64",
+    "min": 0.01,
+    "max": 1.0
+  },
+  {
+    "path": "gaussian_sure/deblurring/mse_MildlyBlurred_DIV2K_unsupervised.npy",
+    "bytes": 79328,
+    "sha256": "c99b4cc7cc3ae35172cf6c99fd49b3a61443427e15b9d8d28a46e65808715cb4",
+    "shape": [
+      9900
+    ],
+    "dtype": "float64",
+    "min": 9.85043152468279e-06,
+    "max": 0.0015626661479473114
+  },
+  {
+    "path": "gaussian_sure/deblurring/mse_vs_sure_values_deblurring_unsupervised.png",
+    "bytes": 34080,
+    "sha256": "29aeaded90ce03a69d486b1b96816e6140e42433b0b0616562cbc91577ca7397"
+  },
+  {
+    "path": "gaussian_sure/deblurring/sure_scores_unsupervised.npy",
+    "bytes": 3328,
+    "sha256": "473f161d54c6bf241fbefef95db8b301943e3c0d8f07dbcb6fe832955e637dc8",
+    "shape": [
+      800
+    ],
+    "dtype": "float32",
+    "min": 9.658724593464285e-06,
+    "max": 0.002079626079648733
+  },
+  {
+    "path": "gaussian_sure/denoising/coverage_denoising_gaussian_all.png",
+    "bytes": 42318,
+    "sha256": "7e35343aeee75c06dd52c04df772975c539a12c0910d5a533bed188baf1f825c"
+  },
+  {
+    "path": "gaussian_sure/denoising/empirical_coverage_denoising_unsupervised.npy",
+    "bytes": 920,
+    "sha256": "d375af1842041b983abe3b88594adfc446645b81301e6462119f3f8c770074f3",
+    "shape": [
+      99
+    ],
+    "dtype": "float64",
+    "min": 0.0,
+    "max": 1.0
+  },
+  {
+    "path": "gaussian_sure/denoising/mse_denoising_unsupervised.npy",
+    "bytes": 79328,
+    "sha256": "2e438674c6eb35a70095f5e28501671770ac0a353f725fb16da8eed7b1e86529",
+    "shape": [
+      9900
+    ],
+    "dtype": "float64",
+    "min": 4.456782789930003e-06,
+    "max": 0.006339809857308865
+  },
+  {
+    "path": "gaussian_sure/denoising/mse_vs_sure_values_denoising_unsupervised.png",
+    "bytes": 32540,
+    "sha256": "5bbe3f8ea29e4c14ee873f8844c08af51240a9f578d15b3f9e6b58e0550ada40"
+  },
+  {
+    "path": "gaussian_sure/denoising/sure_scores_unsupervised.npy",
+    "bytes": 3328,
+    "sha256": "c4353071a76e5fc61b9e8ab5f93f7cb5fc6517cf3226da6bc5fe89e8cf5c8627",
+    "shape": [
+      800
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 0.0081527940928936
+  },
+  {
+    "path": "poisson_pure/deblurring/coverage_deblurring_oracle.png",
+    "bytes": 38340,
+    "sha256": "c7602858b93950937d97f704dbf28e8fccb97fd8ecb0aeb24a2ec79cde745870"
+  },
+  {
+    "path": "poisson_pure/deblurring/empirical_coverage_PoissonDeblurring_div2k_unsupervised.npy",
+    "bytes": 920,
+    "sha256": "da20118ae94020316032917709558eaf82ee61b94a1146fb09fbd72202ae6ada",
+    "shape": [
+      99
+    ],
+    "dtype": "float64",
+    "min": 0.02,
+    "max": 1.0
+  },
+  {
+    "path": "poisson_pure/deblurring/mse_PoissonDeblurring_div2k_unsupervised.npy",
+    "bytes": 79328,
+    "sha256": "b123500d48ca28eed30a6a2b76d95b0dd9ae19b860662530269801a82b7b512b",
+    "shape": [
+      9900
+    ],
+    "dtype": "float64",
+    "min": 0.7638195753097534,
+    "max": 29.360132217407227
+  },
+  {
+    "path": "poisson_pure/deblurring/mse_vs_sure_values_deblurring_unsupervised.png",
+    "bytes": 37201,
+    "sha256": "36640b1e88ba8116b025828e6ee345a4abf8e3fd47a6b4b9463840ef6dad5c31"
+  },
+  {
+    "path": "poisson_pure/deblurring/pure_scores_unsupervised.npy",
+    "bytes": 3328,
+    "sha256": "e71ef47909fbe7160d46db548ca03aafe687a9e8d497c510a1fe9ccd15fdf7f2",
+    "shape": [
+      800
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 31.612506866455078
+  },
+  {
+    "path": "poisson_pure/deblurring/sure_scores_unsupervised.npy",
+    "bytes": 3328,
+    "sha256": "e71ef47909fbe7160d46db548ca03aafe687a9e8d497c510a1fe9ccd15fdf7f2",
+    "shape": [
+      800
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 31.612506866455078
+  },
+  {
+    "path": "poisson_pure/denoising/coverage_poisson_denoising_oracle.png",
+    "bytes": 40903,
+    "sha256": "28ea1d83391cf54f0b69dd732ed872ff90fa7fe0b59d1ceb85fab4444d452887"
+  },
+  {
+    "path": "poisson_pure/denoising/empirical_coverage_DenoisingPoisson_div2k_unsupervised.npy",
+    "bytes": 920,
+    "sha256": "82d0a195c774e467db742a80be1843846d8001b82a4e729047896f7aa192c0dc",
+    "shape": [
+      99
+    ],
+    "dtype": "float64",
+    "min": 0.0,
+    "max": 1.0
+  },
+  {
+    "path": "poisson_pure/denoising/mse_DenoisingPoisson_div2k_unsupervised.npy",
+    "bytes": 79328,
+    "sha256": "e8dbd2492b1b5cf87ffc922b182e761e77ca73aee71cdc49efa09621966e4c17",
+    "shape": [
+      9900
+    ],
+    "dtype": "float64",
+    "min": 0.0001424252986907959,
+    "max": 0.011456112377345562
+  },
+  {
+    "path": "poisson_pure/denoising/mse_vs_sure_values_denoising_unsupervised.png",
+    "bytes": 33477,
+    "sha256": "76d08527ddfd4f6d14a489019dc4c0eef50d82754fd334ca64365bf5df14f094"
+  },
+  {
+    "path": "poisson_pure/denoising/pure_scores_unsupervised.npy",
+    "bytes": 3328,
+    "sha256": "3def3db3f19b2f2c0a3883bfdc26cae8c403cfefe15f7e863df522ca42df47f7",
+    "shape": [
+      800
+    ],
+    "dtype": "float32",
+    "min": -0.0005490779876708984,
+    "max": 0.01378534734249115
+  },
+  {
+    "path": "poisson_pure/denoising/sure_scores_unsupervised.npy",
+    "bytes": 3328,
+    "sha256": "3def3db3f19b2f2c0a3883bfdc26cae8c403cfefe15f7e863df522ca42df47f7",
+    "shape": [
+      800
+    ],
+    "dtype": "float32",
+    "min": -0.0005490779876708984,
+    "max": 0.01378534734249115
+  }
+]

@@ -1,0 +1,3 @@
+553:             \includegraphics[width=0.44\textwidth]{Graphs/poisson_reconstruction_reviewed.png}
+591:     \includegraphics[width=1\linewidth]{Graphs/coveragepoissondenoisingwithoracle.png}
+612:     \includegraphics[width=1\linewidth]{Graphs/coveragepoissondeblurringwithoracle.png}

@@ -1,0 +1,14 @@
+# Legacy-style environment observed in the uploaded project.
+# Use this if you need to run old DeepInv experiment builders exactly.
+deepinv==0.2.2
+polyblur==0.1.6
+torch==1.13.0
+torchvision==0.14.0
+numpy==1.26.0
+matplotlib==3.6.3
+scipy==1.10.0
+scikit-image==0.24.0
+tqdm==4.66.5
+PyYAML==6.0.2
+wandb==0.15.4
+h5py==3.12.1

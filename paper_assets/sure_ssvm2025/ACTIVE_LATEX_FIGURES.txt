@@ -1,0 +1,5 @@
+396:             \includegraphics[width=0.8\textwidth]{Graphs/reconstructions.png}
+423:     \includegraphics[width=0.75\textwidth]{Graphs/coveragedenoisingwithoracle.png}
+437:     \includegraphics[width=0.75\textwidth]{Graphs/coveragedeblurringwithoracle.png}
+547:         \includegraphics[width=\textwidth]{Graphs/histogramdenoising.png}
+553:         \includegraphics[width=\textwidth]{Graphs/histogramdeblurring.png}

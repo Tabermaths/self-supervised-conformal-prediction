@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: Self-supervised Conformal Prediction for Imaging
+message: If you use this code, please cite the associated SURE and PURE self-supervised conformal prediction papers.
+type: software
+authors:
+  - family-names: Tamo Amougou
+    given-names: Bernardin
+  - family-names: Pereyra
+    given-names: Marcelo
+  - family-names: Everink
+    given-names: Jasper Marijn
+  - family-names: Pascal
+    given-names: Barbara
+version: 0.1.0
+license: MIT
+repository-code: https://github.com/CHANGE-ME/self-supervised-conformal-prediction
