@@ -1,16 +1,42 @@
 cff-version: 1.2.0
-title: Self-supervised Conformal Prediction for Imaging
-message: If you use this code, please cite the associated SURE and PURE self-supervised conformal prediction papers.
+title: "Self-supervised Conformal Prediction for Imaging"
+message: "If you use this software, please cite this release and the associated SURE/PURE conformal prediction papers listed below."
 type: software
 authors:
-  - family-names: Tamo Amougou
-    given-names: Bernardin
-  - family-names: Pereyra
-    given-names: Marcelo
-  - family-names: Everink
-    given-names: Jasper Marijn
-  - family-names: Pascal
-    given-names: Barbara
-version: 0.1.0
+  - family-names: "Tamo Amougou"
+    given-names: "Bernardin"
+  - family-names: "Everink"
+    given-names: "Jasper Marijn"
+  - family-names: "Pereyra"
+    given-names: "Marcelo"
+  - family-names: "Pascal"
+    given-names: "Barbara"
+version: "1.0.0"
+date-released: "2026-06-18"
 license: MIT
-repository-code: https://github.com/CHANGE-ME/self-supervised-conformal-prediction
+repository-code: "https://github.com/Tabermaths/self-supervised-conformal-prediction"
+references:
+  - type: conference-paper
+    title: "Self-supervised Conformal Prediction for Uncertainty Quantification in Imaging Problems"
+    authors:
+      - family-names: "Everink"
+        given-names: "Jasper Marijn"
+      - family-names: "Tamo Amougou"
+        given-names: "Bernardin"
+      - family-names: "Pereyra"
+        given-names: "Marcelo"
+    year: 2025
+    collection-title: "Scale Space and Variational Methods in Computer Vision"
+    doi: "10.1007/978-3-031-92366-1_9"
+  - type: conference-paper
+    title: "Self-supervised conformal prediction for uncertainty quantification in Poisson imaging problems"
+    authors:
+      - family-names: "Tamo Amougou"
+        given-names: "Bernardin"
+      - family-names: "Pereyra"
+        given-names: "Marcelo"
+      - family-names: "Pascal"
+        given-names: "Barbara"
+    year: 2025
+    collection-title: "2025 IEEE Statistical Signal Processing Workshop (SSP)"
+    doi: "10.1109/SSP64130.2025.11073283"
